@@ -117,7 +117,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project feel free to give me feedback email:markyegonk@gmail.com
+If you like this project feel free to give me feedback via email:markyegonk@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,12 +132,12 @@ Code reviewers were of great help
 
 - Can this project be improved
 
-  -Yes,feel free to add different features according to your project
+  -Yes, feel free to add different features according to your project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/MarkYegon7/Mark-Portfolio/blob/c3fe8cf4da98f16d1493b08de6d87fe5e76307bc/LICENSE.md) licensed.
+This project is [MIT](https://github.com/MarkYegon7/Project-Capstone/blob/2682c49a798b21e6fc07cd8914078753813d7bb8/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
