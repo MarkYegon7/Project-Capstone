@@ -1,0 +1,360 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+.top-navbar {
+  display: none;
+}
+
+.hamburger-logo {
+  background-color: #ffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3% 0 0 0;
+}
+
+.ham1 {
+  margin: 112% 1% 1% 96%;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 80%;
+  width: 48%;
+  padding: 2% 0 3% 0;
+}
+
+.menu {
+  display: none;
+}
+
+.about-intro {
+  background-image: url("images/about.svg");
+  height: 20vh;
+  background-size: cover;
+}
+
+#about-hello {
+  color: #f24c09fa;
+  font-size: 30px;
+  padding: 2% 2% 3% 14%;
+}
+
+.about-title-intro {
+  color: hsl(11.01deg 100% 52.2%);
+  font-size: 31px;
+  font-family: 'Lato', sans-serif;
+  width: 88%;
+  font-weight: 900;
+  padding: 1% 1% 2% 7%;
+}
+
+.global-intro p {
+  margin: 7% 1% 6% 9%;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+}
+
+.about-contact {
+  background-color: #00000012;
+  box-sizing: border-box;
+}
+
+.about-contact p {
+  padding: 7% 3% 2% 12%;
+  font-family: 'Lato', sans-serif;
+  color: hsl(0deg 0% 13% / 71%);
+  font-size: 16px;
+}
+
+#about-email {
+  text-decoration: underline;
+  color: #000000d9;
+  font-weight: 700;
+  padding: 1% 2% 9% 21%;
+}
+
+.about-crts p {
+  font-family: 'Lato', sans-serif;
+  padding: 5% 3% 4% 22%;
+  font-size: 20px;
+  width: 60%;
+}
+
+.about-hr {
+  border: 1px solid hsl(0, 100%, 52%);
+  width: 5vh;
+  margin-left: 43%;
+  margin-bottom: 2%;
+}
+
+.about-crts .att-dates {
+  padding: 5% 4% 2% 9%;
+  color: #00000080;
+  width: 87vw;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.about-sm-line {
+  border: 0 solid grey;
+  margin: 3% 1% 2% 1%;
+}
+
+.about-logo {
+  width: 100%;
+}
+
+.about-last {
+  padding: 2% 3% 2% 10%;
+}
+
+.about-cc-summit {
+  font-family: 'Lato', sans-serif;
+  margin: 5% 3% 4% 6%;
+  font-size: 19px;
+  width: 85%;
+  font-weight: 700;
+}
+
+.about-hr2 {
+  border: 1px solid hsl(0, 100%, 52%);
+  width: 5vh;
+  margin-left: 37%;
+  margin-bottom: 2%;
+}
+
+.about-look {
+  padding: 1% 1% 1% 1%;
+  font-family: 'Lato', sans-serif;
+  color: #00000080;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.about-images {
+  margin: 4% 1% 5% 4%;
+}
+
+.fx-about-2011 {
+  width: 98%;
+}
+
+.partners {
+  background-color: hsl(0deg 0% 13% / 97%);
+  padding: 5% 3% 5% 3%;
+  height: 22%;
+}
+
+.ab-prts {
+  color: #ffff;
+  font-size: 25px;
+  padding: 1% 2% 1% 39%;
+  font-family: 'Lato', sans-serif;
+}
+
+.about-partners {
+  width: 100%;
+  padding: 14% 2% 1% 2%;
+}
+
+.about-hr3 {
+  border: 1px solid hsl(0, 100%, 52%);
+  width: 5vh;
+  margin-left: 45%;
+  margin-top: 3%;
+}
+
+.logo1 {
+  height: 90%;
+  width: 50%;
+  padding: 2% 0 3% 1%;
+}
+
+.footer-rights {
+  font-family: 'Lato', sans-serif;
+  padding: 1% 1% 1% 1%;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+.about-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .top-navbar {
+    background: #000c;
+    display: flex;
+    gap: 10%;
+    padding: 1% 1% 1% 52%;
+  }
+
+  .top-navbar p {
+    color: #ffff;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .hamburger-logo {
+    padding: 0;
+    position: fixed;
+    background-color: #ffff;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .header-container {
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logo {
+    padding: 16% 1% 0% 41%;
+    height: 60%;
+    width: 97%;
+  }
+
+  .ham1 {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    backdrop-filter: none;
+    background: #ffff;
+    height: 0;
+    flex-direction: row;
+    justify-content: space-around;
+    top: 0;
+    list-style: none;
+    width: 100%;
+  }
+
+  .nav-content {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    color: #00000094;
+    padding: 1.2% 0 2% 1%;
+    gap: 20%;
+    position: fixed;
+    list-style-type: none;
+  }
+
+  .nav-content li {
+    text-decoration: none;
+    color: #00000094;
+  }
+
+  .close-button {
+    display: none;
+  }
+
+  #nav-grey {
+    text-decoration: none;
+    color: #00000094;
+  }
+
+  .nav-content li a {
+    text-decoration: none;
+    color: orangered;
+  }
+
+  .about-front {
+    background: hsl(0deg 0% 13% / 5%);
+    background-image:
+      url("images/about1.png"),
+      url("images/about2.png"),
+      url("images/image7.png"),
+      url("images/about4.png"),
+      url("images/about5.png");
+    background-position:
+      4% 13%,
+      1% 41%,
+      101% 38%,
+      100% 25%,
+      1% 25%;
+    background-repeat: no-repeat;
+  }
+
+  #about-hello {
+    display: none;
+  }
+
+  .about-intro {
+    background-image: none;
+  }
+
+  .about-title-intro {
+    font-size: 47px;
+    padding: 18% 1% 2% 24%;
+    width: 65%;
+  }
+
+  .global-intro {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 14% 1% 1% 19%;
+    background-color: #fffffff5;
+    width: 68%;
+  }
+
+  .about-contact {
+    background: none;
+  }
+
+  .about-contact p {
+    padding: 17% 0 2% 18%;
+    width: 77vw;
+  }
+
+  #about-email {
+    padding: 0% 2% 9% 37%;
+  }
+
+  .about-crts p {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .about-cc-summit {
+    margin: 5% 3% 4% 23%;
+  }
+
+  .about-images {
+    display: flex;
+    gap: 2%;
+  }
+
+  .about-partners {
+    padding: 0% 2% 1% 2%;
+  }
+
+  .about-hr3 {
+    margin-left: 42%;
+    margin-top: 1%;
+  }
+
+  .about-footer {
+    display: none;
+  }
+}
