@@ -123,8 +123,7 @@ If you like this project feel free to give me feedback via email:markyegonk@gmai
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I want to thank Microverse  who have been of great help.
-Code reviewers were of great help
+Credit to Cindy Shin the author of the original design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
