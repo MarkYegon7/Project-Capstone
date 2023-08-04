@@ -64,7 +64,7 @@ function displayCard(id) {
   card.innerHTML += `
     <div class="attendees-info">
       
-        <img src="${attendees[id].image}" class="image-speaker"/>
+        <img src="${attendees[id].image}" alt="speaker-image" class="image-speaker"/>
       
       <div>
         <h3 class="name-speaker">${attendees[id].name}</h3>
